@@ -8,10 +8,10 @@ $(document).ready(function(e){
 		$('#disp table td').eq(9).text(device.version);
 		$('#disp table td').eq(11).text(device.uuid);
 		document.addEventListener("pause",function(){
-	escribehistoria ('la app se pausò');
+	escribehistoria ('la app se pauso');
 		},false);//pause
 		document.addEventListener("resume",function(){
-			escribehistoria ('la app se reiniciò');
+			escribehistoria ('la app se reinicio');
 		},false);//resume
 		document.addEventListener("online",function(){
 			escribehistoria('la app se conecto a la red');
